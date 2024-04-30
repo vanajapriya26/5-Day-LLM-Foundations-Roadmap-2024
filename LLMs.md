@@ -9,7 +9,7 @@
 1. ## **Challenges**
 1. ## **How to Overcome the Challenges**
 **History and Background**
-![image](https://github.com/vanajapriya26/AI-summer-Internship/assets/155828249/4bdd8966-ed4d-459c-9f44-2e601abf60f3)
+![Uploading image.png…]()
 
 
 The history and basic ideas behind artificial intelligence (AI) and machine learning (ML), which are like teaching computers to learn from examples without being told exactly what to do. Then, we explore neural networks, which are like computer systems inspired by the human brain, and generative AI, which is a type of AI that can create new things based on what it's learned.
@@ -17,8 +17,8 @@ The history and basic ideas behind artificial intelligence (AI) and machine lear
 One of the big things we focus on is Large Language Models (LLMs), which are these huge models that understand and generate text. They're called "large" because they're built with a lot of components and trained on tons of data, which helps them understand language really well. These models, like ChatGPT, can do all sorts of cool things with language, from answering questions to creating stories.
 
 We also look at how these models have evolved over time, from simpler ones to these massive, powerful ones we have now. And we talk about the challenges of using them, like making sure they work quickly and accurately.
-## **Enter LLMs**
-## Large Language Models (LLMs) like GPT-3, Gemini, and Claude are characterized by their massive scale, both in architecture size and training data volume. They possess thousands of billion model parameters, akin to knobs in machine learning algorithms, crucial for accurate predictions and meaningful outputs. LLMs are language models trained to understand and generate human-like text by learning from diverse datasets. Their large size enables them to capture complex language patterns effectively, unlike traditional smaller models.
+## **LLMs**
+Large Language Models (LLMs) like GPT-3, Gemini, and Claude are characterized by their massive scale, both in architecture size and training data volume. They possess thousands of billion model parameters, akin to knobs in machine learning algorithms, crucial for accurate predictions and meaningful outputs. LLMs are language models trained to understand and generate human-like text by learning from diverse datasets. Their large size enables them to capture complex language patterns effectively, unlike traditional smaller models.
 ## **Training LLMs**
 Training Large Language Models (LLMs) involves exposing the model to extensive text data from various sources like books, articles, and websites. During training, the model learns to predict the next word or token in a sequence based on context, fine-tuning its weights to minimize error rates and improve accuracy. This process involves continuously adjusting parameter values based on error feedback received during predictions.
 
