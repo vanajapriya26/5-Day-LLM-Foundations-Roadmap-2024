@@ -8,7 +8,9 @@
 1. ## **Applications** 
 1. ## **Challenges**
 1. ## **How to Overcome the Challenges**
-**History and Background**
+
+## **History and Background**
+
 The history and basic ideas behind artificial intelligence (AI) and machine learning (ML), which are like teaching computers to learn from examples without being told exactly what to do. Then, we explore neural networks, which are like computer systems inspired by the human brain, and generative AI, which is a type of AI that can create new things based on what it's learned.
 ![image](https://github.com/vanajapriya26/AI-summer-Internship/assets/155828249/3a37125c-3870-4c5d-b087-4a01a071611d)
 
