@@ -9,6 +9,8 @@
 1. ## **Challenges**
 1. ## **How to Overcome the Challenges**
 **History and Background**
+![image](https://github.com/vanajapriya26/AI-summer-Internship/assets/155828249/4bdd8966-ed4d-459c-9f44-2e601abf60f3)
+
 
 The history and basic ideas behind artificial intelligence (AI) and machine learning (ML), which are like teaching computers to learn from examples without being told exactly what to do. Then, we explore neural networks, which are like computer systems inspired by the human brain, and generative AI, which is a type of AI that can create new things based on what it's learned.
 
@@ -28,6 +30,8 @@ In the context of Large Language Models (LLMs), "architecture" refers to the blu
 
 "Design" focuses on how to best utilize the model, encompassing hyperparameters, data pipelines, and resource allocation. It ensures operational efficiency and user-friendliness, harnessing the model's intellectual prowess for scalable and effective language processing.
 ## **Working of LLM**
+![image](https://github.com/vanajapriya26/AI-summer-Internship/assets/155828249/fe986e9a-7b7e-4ad4-9336-6bd12ccd72e1)
+
 ##
 In the realm of Large Language Models (LLMs), a multi-step approach is employed to optimize their effectiveness. Initially, LLMs undergo unsupervised learning, comprehending vast amounts of unlabeled data to grasp relationships between words and concepts. This is followed by semi-supervised learning, where labeled data enhances the model's accuracy further.
 
@@ -35,8 +39,12 @@ Next, LLMs utilize transformer neural networks to better understand word and ide
 
 Once fully trained, LLMs are capable of practical applications like text generation, summarization, sentiment analysis, and question answering, making them valuable for various real-world tasks.
 ## **Applications**
+![image](https://github.com/vanajapriya26/AI-summer-Internship/assets/155828249/092a49cb-2224-4dbb-ad98-ceb6bc6dfdb6)
+
 ##
 ## **Challenges**
+![image](https://github.com/vanajapriya26/AI-summer-Internship/assets/155828249/cadeffcd-3219-4228-96ec-281344be7929)
+
 ##
 
 ## **How to Overcome the Challenges**
