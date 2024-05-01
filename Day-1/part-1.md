@@ -1,6 +1,6 @@
-﻿**Day 1: LLM Basics and Foundations**
+## ﻿**Day 1: LLM Basics and Foundations**
 
-1. **History and Background**
+1. ## **History and Background**
 1. ## **LLMs**
 1. ## **Training LLMs**
 1. ## **The LLM Design and LLM Architecture**
