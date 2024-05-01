@@ -1,11 +1,11 @@
 ## **Domain-specific LLMs**
 General AI models like ChatGPT are really good at understanding and creating text about lots of different topics. But when it comes to specific fields like healthcare, they might not get it right because they lack detailed knowledge. They can make mistakes or say things that don't really fit the situation. That's where domain-specific LLMs come in. These are like super-smart versions of ChatGPT, but they're trained specifically on one subject, like healthcare. So they know all the right words and ideas for that field, making them much better at understanding and talking about it accurately
 ## **Benefits of using domain-specific LLMs**
-	Depth and Precision: They are tailored for specific industries, ensuring they understand and interpret industry-specific language accurately.
-	Overcoming Limitations: They excel in domains where precise terminology is crucial, mitigating inaccuracies and providing contextually relevant information.
-	Enhanced User Experiences: They provide tailored responses, enhancing user interactions in applications like chatbots and AI agents.
-	Improved Efficiency and Productivity: They automate tasks and streamline operations, freeing up human resources for higher-level tasks and boosting productivity.
-	Addressing Privacy Concerns: In industries with sensitive data, domain-specific LLMs offer a closed framework, ensuring data privacy and adherence to agreements.
+Depth and Precision: They are tailored for specific industries, ensuring they understand and interpret industry-specific language accurately.
+Overcoming Limitations: They excel in domains where precise terminology is crucial, mitigating inaccuracies and providing contextually relevant information.
+Enhanced User Experiences: They provide tailored responses, enhancing user interactions in applications like chatbots and AI agents.
+Improved Efficiency and Productivity: They automate tasks and streamline operations, freeing up human resources for higher-level tasks and boosting productivity.
+Addressing Privacy Concerns: In industries with sensitive data, domain-specific LLMs offer a closed framework, ensuring data privacy and adherence to agreements.
 ## **Types of Domain Adaptation Methods**
 1)	Domain-Specific Pre-Training
 2)	Domain-Specific Fine-Tuning
