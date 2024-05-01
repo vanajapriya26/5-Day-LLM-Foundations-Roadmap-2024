@@ -28,9 +28,9 @@ Here's an example prompt for a text classification task:
 
 ## Prompt:
 
-### Classify the text into neutral, negative, or positive
-### Text: I think the food was okay.
-### Sentiment:
+#### Classify the text into neutral, negative, or positive
+#### Text: I think the food was okay.
+#### Sentiment:
 
 In this example:
 
@@ -47,14 +47,22 @@ It's important to highlight that not all four elements are always necessary for 
 
 ## **OpenAI's guidelines on prompt engineering emphasize several key points:**
 
-**Use the Latest Model:** Optimal results are achieved by utilizing the most recent and capable models available.
-**Structure Instructions:** Clearly separate instructions from context using ### or """ for improved clarity and effectiveness.
-**Be Specific and Descriptive:** Clearly articulate the desired context, outcome, length, format, and style in a specific and detailed manner.
-**Specify Output Format with Examples:** Express the desired output format through examples, facilitating accurate model understanding and response.
-**Use Zero-shot, Few-shot, and Fine-tune Approach:** Start with zero-shot, then few-shot, and if needed, fine-tune the model for better performance.
-**Avoid Fluffy Descriptions:** Minimize vague and imprecise descriptions, opting for clear instructions and avoiding unnecessary verbosity.
-**Provide Positive Guidance:** Offer clear instructions on desired actions rather than focusing on what not to do, providing positive guidance.
-**Code Generation Specific - Use "Leading Words":** In code generation tasks, utilize "leading words" to guide the model towards specific patterns or language, enhancing code generation accuracy.
+**Use the Latest Model:** 
+Optimal results are achieved by utilizing the most recent and capable models available.
+**Structure Instructions:** 
+Clearly separate instructions from context using ### or """ for improved clarity and effectiveness.
+**Be Specific and Descriptive:** 
+Clearly articulate the desired context, outcome, length, format, and style in a specific and detailed manner.
+**Specify Output Format with Examples:** 
+Express the desired output format through examples, facilitating accurate model understanding and response.
+**Use Zero-shot, Few-shot, and Fine-tune Approach:** 
+Start with zero-shot, then few-shot, and if needed, fine-tune the model for better performance.
+**Avoid Fluffy Descriptions:** 
+Minimize vague and imprecise descriptions, opting for clear instructions and avoiding unnecessary verbosity.
+**Provide Positive Guidance:** 
+Offer clear instructions on desired actions rather than focusing on what not to do, providing positive guidance.
+**Code Generation Specific - Use "Leading Words":** 
+In code generation tasks, utilize "leading words" to guide the model towards specific patterns or language, enhancing code generation accuracy.
 
 ## **Promting**
 ![alt text](assests/What-is-Prompt-Engineering.png "Prompting")
