@@ -62,7 +62,7 @@ Minimize vague and imprecise descriptions, opting for clear instructions and avo
 **Provide Positive Guidance:** \
 Offer clear instructions on desired actions rather than focusing on what not to do, providing positive guidance.\
 **Code Generation Specific - Use "Leading Words":** \
-In code generation tasks, utilize "leading words" to guide the model towards specific patterns or language, enhancing code generation accuracy.\
+In code generation tasks, utilize "leading words" to guide the model towards specific patterns or language, enhancing code generation accuracy.
 
 ## **Promting**
 ![alt text](assests/What-is-Prompt-Engineering.png "Prompting")
