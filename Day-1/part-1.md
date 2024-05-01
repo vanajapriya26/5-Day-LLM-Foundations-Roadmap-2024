@@ -31,6 +31,7 @@ In the context of Large Language Models (LLMs), "architecture" refers to the blu
 ## **Working of LLM**
 ##
 ![Alt text](assets/Picture5.jpg "History")
+
 In the realm of Large Language Models (LLMs), a multi-step approach is employed to optimize their effectiveness. Initially, LLMs undergo unsupervised learning, comprehending vast amounts of unlabeled data to grasp relationships between words and concepts. This is followed by semi-supervised learning, where labeled data enhances the model's accuracy further.
 
 Next, LLMs utilize transformer neural networks to better understand word and idea relationships. The self-attention mechanism within transformers aids in determining the significance of each word or token in a given context.
