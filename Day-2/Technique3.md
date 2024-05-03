@@ -21,6 +21,7 @@ Automatic Multi-step Reasoning and Tool-use (ART) in prompt engineering is a met
 
 ## **Chain-of-Knowledge (CoK)**
 Chain-of-Knowledge (CoK) prompting is a way of teaching AI models by guiding them through a series of related facts or ideas, one step at a time. Each new prompt builds on what the model already knows, helping it understand the topic better. This method helps the AI to combine information from different sources and improve how well it can answer questions or solve problems. So, CoK prompting helps AI models learn better and give smarter answers.
+
 **Knowledge Chain:** CoK prompting involves structuring prompts in such a way that they lead the model through a sequence of related facts, concepts, or ideas. Each prompt builds upon the previous one, creating a logical chain of information.\
 **Comprehensive Understanding:** By presenting information in a sequential manner, CoK prompting encourages the model to develop a comprehensive understanding of the topic or task at hand. This sequential approach helps guide the model's reasoning process and ensures that it considers relevant context when generating responses.\
 **Integration of Knowledge:** CoK prompting enables the model to integrate knowledge from multiple sources or domains. As it progresses through the chain of prompts, the model can incorporate information from previous steps to inform its responses, leading to more coherent and contextually relevant outputs.
