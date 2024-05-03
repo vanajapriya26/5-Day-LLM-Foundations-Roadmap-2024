@@ -1,4 +1,4 @@
-## **Advanced Prompt Engineering Techniques**
+# **Advanced Prompt Engineering Techniques**
 
 Advanced Prompt Engineering Techniques are a set of methods for improving the performance of large language models on complex tasks. These techniques involve providing the LLM with more informative and structured prompts, as well as using prior knowledge and logical reasoning to guide the LLM's responses.
 
@@ -17,11 +17,11 @@ These methods involve breaking down complex problems into smaller, manageable st
 Chain of thought (CoT) prompting1 is a recent advancement in prompting methods that encourage Large Language Models (LLMs) to explain their reasoning. This method contrasts with standard prompting by not only seeking an answer but also requiring the model to explain its steps to arrive at that answer.
 ![alt text](assests/cot.webp)
 
-## 1a.Zero-shot/Few-Shot CoT Prompting
+### 1a.Zero-shot/Few-Shot CoT Prompting
 Zero-Shot Chain-of-Thought prompting is a technique that involves appending the words "Let's think step by step" to the end of a question to guide language models in generating a chain of thought that leads to more accurate answers. This method aims to improve AI responses by incorporating step-by-step reasoning without the need for multiple input exemplars, unlike traditional Chain-of-Thought prompting
 ![alt text](assests/cot.webp)
 
-## 1b.Automatic Chain-of-Thought (Auto-CoT)
+### 1b.Automatic Chain-of-Thought (Auto-CoT)
 Automatic Chain-of-Thought (Auto-CoT) is a technique that aims to eliminate the manual effort required in designing effective Chain-of-Thought (CoT) prompts for large language models (LLMs)
 **The key aspects of Auto-CoT are:**
 ##### Question Clustering: 
