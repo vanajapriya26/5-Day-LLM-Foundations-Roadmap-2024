@@ -20,11 +20,14 @@ Hypothetical questions are generated for each chunk of text and used for search,
 **2.Context Enrichment:**
 * Sentence Window Retrieval: Retrieve a single sentence and extend the context by including surrounding sentences, enhancing the understanding of context for generating responses.
 * Auto-Merging Retriever: Merge smaller chunks into larger ones to capture both granularity and context for more comprehensive responses.
-**3.Fusion Retrieval or Hybrid Search:**\
-Integrates traditional keyword-based search with semantic search techniques to improve search outcomes by combining both relevance and keyword matching.\
-**4.Reranking & Filtering:**\
+* 
+**3.Fusion Retrieval or Hybrid Search:**
+Integrates traditional keyword-based search with semantic search techniques to improve search outcomes by combining both relevance and keyword matching.
+
+**4.Reranking & Filtering:**
 Refine retrieved results through filtering, reranking, or transformations before presenting them to the model for response generation.
 ![alt text](assests/reranking%20anf%20filtering.png)
+
 **5.Query Transformations and Routing**
 * Query Expansion: Break down complex queries into sub-questions for narrower retrieval challenges.
 * Query Re-writing: Rephrase poorly framed queries to improve retrieval effectiveness.
@@ -35,7 +38,8 @@ Refine retrieved results through filtering, reranking, or transformations before
 **Response Synthesis Approaches:**
 * Iterative Refinement: Refine the answer by sending retrieved context to the Language Model chunk by chunk.
 * Summarization: Summarize the retrieved context to fit into the prompt and generate a concise answer.
-* Multiple Answers and Concatenation: Generate multiple answers based on different context chunks and then concatenate or summarize them.\
+* Multiple Answers and Concatenation: Generate multiple answers based on different context chunks and then concatenate or summarize them.
+
 **Encoder and LLM Fine-Tuning:**
 * Encoder Fine-Tuning: Fine-tune the Transformer Encoder for better embeddings quality and context retrieval.
 * Ranker Fine-Tuning: Use a cross-encoder for reranking retrieved results, especially if there's a lack of trust in the base Encoder.
