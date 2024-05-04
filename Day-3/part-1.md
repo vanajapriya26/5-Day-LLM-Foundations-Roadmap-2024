@@ -1,8 +1,8 @@
 ## **DAY-3 Retrieval Augmented Generation**
 
-**1.Definition**
-**2.History**
-**3.Key Components**
+**1.Definition**\
+**2.History**\
+**3.Key Components**\
 **4.RAG Challenges**
 
 ## **Definition**
@@ -23,17 +23,17 @@ The key elements of RAG involve the processes of ingestion, retrieval, and synth
 
 ### **Ingestion**
 **Chunking:**
-The process involves breaking down input text into smaller, more manageable segments or chunks, based on size, sentences, or other natural divisions within the text.
+The process involves breaking down input text into smaller, more manageable segments or chunks, based on size, sentences, or other natural divisions within the text.\
 **Embedding:**
-Text or chunks are transformed into a vector format that captures essential qualities in a computationally friendly way.
+Text or chunks are transformed into a vector format that captures essential qualities in a computationally friendly way.\
 **Indexing:**
 The embedded data is organized in a structured format optimized for quick and efficient retrieval, often involving creating a vector representation for each document and storing them in a searchable format.
 
 ### **Retrieval**
-**User Query:** A user poses a natural language query to the LLM. For instance, let’s say we’ve completed the ingestion process for renaissance articles as explained in the above method and a user poses a query, "Tell me about the Renaissance period.”
-**Query Conversion:** The query is sent to an embedding model, which converts the natural language query into a numeric format, creating an embedding or vector representation. The embedding model is the same as the model used to embed articles in the ingestion phase.
-**Vector Comparison:** The numeric vectors of the query are compared to vectors in a index of a knowledge base created in the previous phase. This involves measuring similarity or distance metrics between the query vector and vectors stored in the index (often cosine similarity).
-**Top-K Retrieval:** The system then retrieves the top-K documents or passages from the knowledge base that have the highest similarity to the query vector. This step involves selecting a predefined number (K) of the most relevant documents based on the vector similarities. These embeddings may include information about different aspects of the Renaissance.
+**User Query:** A user poses a natural language query to the LLM. For instance, let’s say we’ve completed the ingestion process for renaissance articles as explained in the above method and a user poses a query, "Tell me about the Renaissance period.”\
+**Query Conversion:** The query is sent to an embedding model, which converts the natural language query into a numeric format, creating an embedding or vector representation. The embedding model is the same as the model used to embed articles in the ingestion phase.\
+**Vector Comparison:** The numeric vectors of the query are compared to vectors in a index of a knowledge base created in the previous phase. This involves measuring similarity or distance metrics between the query vector and vectors stored in the index (often cosine similarity).\
+**Top-K Retrieval:** The system then retrieves the top-K documents or passages from the knowledge base that have the highest similarity to the query vector. This step involves selecting a predefined number (K) of the most relevant documents based on the vector similarities. These embeddings may include information about different aspects of the Renaissance.\
 **Data Retrieval:** The system retrieves the actual content or data from the selected top-K documents in the knowledge base. This content is typically in human-readable form, representing relevant information related to the user's query.
 
 ### **Synthesis**
@@ -41,14 +41,14 @@ The Synthesis phase is very similar to regular LLM generation, except that now t
 
 ## **RAG Challenges**
 **Complexity of Information:**
-Retrieval augmented generation (RAG) systems often deal with complex and diverse types of information across various domains. Managing the intricacies and nuances of this information poses a significant challenge.
+Retrieval augmented generation (RAG) systems often deal with complex and diverse types of information across various domains. Managing the intricacies and nuances of this information poses a significant challenge.\
 **Semantic Understanding:**
-Ensuring that the RAG model accurately understands the semantics of both the query and the retrieved content is crucial. Ambiguities, context shifts, and nuanced meanings can make this task challenging.
+Ensuring that the RAG model accurately understands the semantics of both the query and the retrieved content is crucial. Ambiguities, context shifts, and nuanced meanings can make this task challenging.\
 **Chunking Strategies:**
-Determining the optimal chunking strategy involves balancing between granularity for precision and coherence for context. Identifying the most effective chunking approach for different types of content is a continuous challenge.
+Determining the optimal chunking strategy involves balancing between granularity for precision and coherence for context. Identifying the most effective chunking approach for different types of content is a continuous challenge.\
 **Computational Resources:**
-The computational resources required for training and inference in RAG systems can be substantial, particularly for large-scale models. Optimizing resource utilization while maintaining performance is an ongoing challenge.
+The computational resources required for training and inference in RAG systems can be substantial, particularly for large-scale models. Optimizing resource utilization while maintaining performance is an ongoing challenge.\
 **User Interaction and Feedback:**
-Incorporating user interaction and feedback to improve the relevance and quality of generated responses adds complexity to RAG systems. Developing effective mechanisms for user feedback integration is essential for enhancing system performance.
+Incorporating user interaction and feedback to improve the relevance and quality of generated responses adds complexity to RAG systems. Developing effective mechanisms for user feedback integration is essential for enhancing system performance.\
 **Ethical and Privacy Concerns:**
 RAG systems raise ethical concerns related to the generation of potentially biased or harmful content. Ensuring responsible deployment and addressing privacy considerations in handling user data are critical challenges for RAG development and deployment.
