@@ -19,6 +19,7 @@ RAG takes an input and retrieves a set of relevant/supporting documents given a 
 
 ## **Key Components**
 The key elements of RAG involve the processes of ingestion, retrieval, and synthesis. Now, let's delve deeper into each of these components.
+
 ![alt text](assests/key%20elements.webp)
 
 ### **Ingestion**
