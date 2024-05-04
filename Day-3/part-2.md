@@ -20,7 +20,7 @@ Hypothetical questions are generated for each chunk of text and used for search,
 **2.Context Enrichment:**
 * Sentence Window Retrieval: Retrieve a single sentence and extend the context by including surrounding sentences, enhancing the understanding of context for generating responses.
 * Auto-Merging Retriever: Merge smaller chunks into larger ones to capture both granularity and context for more comprehensive responses.
-* 
+ 
 **3.Fusion Retrieval or Hybrid Search:**
 Integrates traditional keyword-based search with semantic search techniques to improve search outcomes by combining both relevance and keyword matching.
 
