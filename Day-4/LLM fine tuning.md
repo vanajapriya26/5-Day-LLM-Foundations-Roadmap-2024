@@ -27,10 +27,10 @@ At a basic level, fine-tuning methods for language models fall into two main typ
 
 #### **Unsupervised Fine-Tuning Methods:**
 
-* 1.Unsupervised Full Fine-Tuning:
+**Unsupervised Full Fine-Tuning:**
 This method updates a language model's knowledge base without altering its existing behavior. For example, if the aim is to refine the model with legal literature or adapt it to a new language, an unstructured dataset of legal documents or texts in the target language is used. This allows the model to improve its understanding and adapt to the nuances of legal language without labeled examples, showcasing the versatility of unsupervised fine-tuning.
 
-* 2.Contrastive Learning:
+**Contrastive Learning:**
 Contrastive learning focuses on training the model to differentiate between similar and dissimilar examples in the latent space. By encouraging the model to group similar examples together while separating dissimilar ones, it learns to capture subtle relationships and differences in the data. This technique is valuable for tasks requiring fine-grained discrimination, enhancing language models for specific applications.
 * Instruction Fine-Tuning
 
@@ -40,16 +40,17 @@ In this method, the model is trained on a task-specific labeled dataset, where e
 
 The most common supervised fine-tuning techniques are:
 
-* 1.Basic hyperparameter tuning
+**Basic hyperparameter tuning**
 Basic hyperparameter tuning is a simple approach that involves manually adjusting the model hyperparameters, such as the learning rate, batch size, and the number of epochs, until you achieve the desired performance.The goal is to find the set of hyperparameters that allows the model to learn most effectively from the data, balancing the trade-off between learning speed and the risk of overfitting. Optimal hyperparameters can significantly enhance the model's performance on the specific task.
-* 2.Transfer learning
+**Transfer learning**
 Transfer learning is a powerful technique that’s particularly beneficial when dealing with limited task-specific data. In this approach, a model pre-trained on a large, general dataset is used as a starting point.The model is then fine-tuned on the task-specific data, allowing it to adapt its pre-existing knowledge to the new task. This process significantly reduces the amount of data and training time required and often leads to superior performance compared to training a model from scratch.
-* 3.Multi-task learning
+**Multi-task learning**
 In multi-task learning, the model is fine-tuned on multiple related tasks simultaneously. The idea is to leverage the commonalities and differences across these tasks to improve the model's performance. The model can develop a more robust and generalized understanding of the data by learning to perform multiple tasks simultaneously.This approach leads to improved performance, especially when the tasks it will perform are closely related or when there is limited data for individual tasks. 
-* 4.Few-shot learning
+**Few-shot learning**
 Few-shot learning enables a model to adapt to a new task with little task-specific data. The idea is to leverage the vast knowledge model has already gained from pre-training to learn effectively from just a few examples of the new task. This approach is beneficial when the task-specific labeled data is scarce or expensive.In this technique, the model is given a few examples or "shots” during inference time to learn a new task. The idea behind few-shot learning is to guide the model's predictions by providing context and examples directly in the prompt.
-* 5.Task-specific fine-tuning
+**Task-specific fine-tuning**
 This method allows the model to adapt its parameters to the nuances and requirements of the targeted task, thereby enhancing its performance and relevance to that particular domain. Task-specific fine-tuning is particularly valuable when you want to optimize the model's performance for a single, well-defined task, ensuring that the model excels in generating task-specific content with precision and accuracy.
+
 #### **Instruction fine-tuning LLMs**
 Instruction fine-tuning LLMs, also called chat or instruct models, are created by training pre-trained models with different types of instructions. Instruction fine-tuning can be defined as a type of supervised machine learning that improves the foundation model by continuously comparing the model’s output for a given input (e.g., instruction prompt with dialogue)  to the ground truth label (e.g., human baseline summary). The weights of the foundation LLM are updated accordingly based on the comparison. This process is continued for each instruction prompt.
 For example, take a pre-trained LLM such as Llama-2-70b and train with specific instructions such as some of the following to create instruction fine-tuning LLM.
@@ -92,4 +93,4 @@ Parameter-Efficient Fine-Tuning (PEFT) is a method used in machine learning to f
 #### **Additional**
 ![alt text](assests/Fine-tune-example.png)
 
-[finetuning-large-language-models](https://www.turing.com/resources/finetuning-large-language-models)
+[Finetuning-Large-Language-Models](https://www.turing.com/resources/finetuning-large-language-models)
