@@ -12,13 +12,13 @@ Fine-tuning is like giving a super smart model extra training to make it really 
 
 Here's why we do it:
 
-* Custom Fit: We want the model to be perfect for the job it's doing, not just okay.\
-* Matching Data: Sometimes, the model needs to understand a specific type of information that it wasn't trained on before, so we fine-tune it to learn that new stuff.\
-* Saving Time and Money: Instead of starting from scratch, which can be really expensive and take a long time, we use what the model already knows and just tweak it a bit.\
-* Handling Different Situations: Sometimes, the model might not understand things that are a bit different from what it's used to. Fine-tuning helps it get better at handling these differences.\
-* Sharing Knowledge: The model already knows a lot of general things. Fine-tuning helps it use that knowledge for specific tasks.\
-* Making Users Happy: We want the model to work just the way users want it to, so we fine-tune it to match their needs.\
-* Staying Up-to-Date: Things change over time, so we fine-tune the model to keep it relevant and useful.\
+* Custom Fit: We want the model to be perfect for the job it's doing, not just okay.
+* Matching Data: Sometimes, the model needs to understand a specific type of information that it wasn't trained on before, so we fine-tune it to learn that new stuff.
+* Saving Time and Money: Instead of starting from scratch, which can be really expensive and take a long time, we use what the model already knows and just tweak it a bit.
+* Handling Different Situations: Sometimes, the model might not understand things that are a bit different from what it's used to. Fine-tuning helps it get better at handling these differences.
+* Sharing Knowledge: The model already knows a lot of general things. Fine-tuning helps it use that knowledge for specific tasks.
+* Making Users Happy: We want the model to work just the way users want it to, so we fine-tune it to match their needs.
+* Staying Up-to-Date: Things change over time, so we fine-tune the model to keep it relevant and useful.
 In simple terms, fine-tuning makes smart computer programs even smarter for the jobs they're meant to do, helping them understand specific things better and work more effectively in the real world.
 
 ### **Types of Fine-Tuning**
