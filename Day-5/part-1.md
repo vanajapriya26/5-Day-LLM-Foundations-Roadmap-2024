@@ -11,7 +11,8 @@ Retrieval Augmented Generation (RAG) is a method that helps models understand co
 * Input Processing Tools
 * LLM Development Tools 
 * Output Tools
-* Application Tools 
+* Application Tools
+
 ![alt text](assests/tools_1.png)
 
 RAG operates, an application typically follows these steps:
@@ -20,4 +21,5 @@ RAG operates, an application typically follows these steps:
 * Utilizes an embedding search to find pertinent data (this involves an embedding LLM, data sources and a vector database for storing data embeddings).
 * Forwards the retrieved documents along with the query to the LLM for processing.
 * Delivers the LLM's output back to the user.
+* 
 ![alt text](assests/tools_3.png)
