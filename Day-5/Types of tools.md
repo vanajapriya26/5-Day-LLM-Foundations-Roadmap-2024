@@ -24,7 +24,7 @@ Application tools encompass a wide range of software, platforms, and services us
 ### **Output tools**
 Output tools in the context of LLM (Large Language Model) applications refer to software, platforms, or services designed to assist developers in evaluating, refining, and monitoring the performance of LLM models. These tools are crucial for ensuring that LLM applications meet desired standards of performance, accuracy, and efficiency. Here's a breakdown of the types of output tools commonly used:
 
-**Evaluation:**When working with LLMs, developers face the challenge of balancing model performance, inference cost, and latency. To assist in this process, various evaluation tools have been developed to refine prompts, track experimentation, and monitor model performance, both offline and online.
+**Evaluation:** When working with LLMs, developers face the challenge of balancing model performance, inference cost, and latency. To assist in this process, various evaluation tools have been developed to refine prompts, track experimentation, and monitor model performance, both offline and online.
 
 **No Code / Low Code Prompt Engineering Tools:** These tools, such as Humanloop and PromptLayer, enable developers and prompt engineers to experiment with different prompts and compare outputs across various models without requiring deep coding knowledge. They are valuable for optimizing interactions with LLMs.
 
