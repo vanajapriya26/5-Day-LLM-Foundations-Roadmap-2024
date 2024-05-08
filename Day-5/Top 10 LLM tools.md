@@ -1,5 +1,4 @@
 # **Llama 2**
-{:style="text-align:center;"}
 ![alt text](assests/LLama.jpeg)
 
 Llama 2 is a family of pre-trained and fine-tuned large language models (LLMs) released by Meta AI in 2023. Released free of charge for research and commercial use, Llama 2 AI models are capable of a variety of natural language processing (NLP) tasks, from text generation to programming code.
