@@ -21,5 +21,5 @@ RAG operates, an application typically follows these steps:
 * Utilizes an embedding search to find pertinent data (this involves an embedding LLM, data sources and a vector database for storing data embeddings).
 * Forwards the retrieved documents along with the query to the LLM for processing.
 * Delivers the LLM's output back to the user.
-* 
+
 ![alt text](assests/tools_3.png)
