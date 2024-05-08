@@ -23,8 +23,6 @@ Lightning AI Studios is an all-in-one platform that unites different developer t
 # **Falcon 180B**
 Falcon 180B, being more advanced, excels in complex tasks that require deep reasoning, such as advanced research, coding, proficiency assessments, and knowledge testing. Its extensive training on diverse data sets also makes it a powerful tool for Gen-AI bot training.
 # **OPT-175B**
-![alt text](assests/Meta-AI-OPT-175B.jpg)
-
 "OPT-175B" does not appear to be a standard term or acronym with a widely recognized definition in common use. It might be a product code, an internal reference, or a specific designation used within a particular context or organization. Without more context, it's challenging to provide a precise definition. If you can provide additional information about where or how "OPT-175B" is used, I'd be happy to assist further in defining it.
 # **MindsDB**
 ![alt text](assests/mindsdb.png)
